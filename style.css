@@ -1,0 +1,133 @@
+.up-head {
+    background-color: #87d83d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+.fontu{
+    font-size: 20px;
+}
+.material-symbols-outlined{
+    display: inline-flex;
+    vertical-align: middle;
+    font-size: 20px;
+}
+.fonta{
+    background-color: #87d83d;
+    border-style: hidden hidden hidden groove;
+}
+.middle{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 70px;
+    background-color: whitesmoke;
+}
+.logo{
+    margin-left: 10%;
+}
+.logo span{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+.bold{
+    font-style: bold;
+    text-shadow: 3px 2px gray;
+}
+.green{
+    color: #87d83d;
+    text-shadow: 3px 2px gray;
+}
+.middle-link{
+padding-left: 20%;
+padding-top: 5%;
+}
+.middle-btn{
+    margin-left: 20px;
+    border: none;
+    background-color: whitesmoke;
+}
+.ex{
+    border: 4px solid #87d83d;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.navber{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: black;
+    height: 60px;
+
+}
+.nav-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 0 15px;
+    font-weight: 500;
+}
+.nav-link:hover{
+    background-color: #87d83d;
+    cursor: pointer;
+}
+.nav-search{
+    align-items: center;
+    display: flex;
+}
+.search-bar{
+    margin-left: 10%;
+    height: 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.search-btn{
+    background-color: #87d83d;
+    margin-left: 1%;
+    height: 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.carousel{
+    background-image: url(img/cover\ image.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 328px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+.carousel-heading{
+    color: white;
+    font-family: sans-serif;
+    margin-top: 5%;
+}
+.domain{
+
+}
+.domain-heading{
+    text-align: center;
+    font-size: 30px;
+}
