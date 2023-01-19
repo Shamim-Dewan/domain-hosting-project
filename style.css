@@ -49,7 +49,7 @@ padding-top: 5%;
     background-color: whitesmoke;
 }
 .ex{
-    border: 4px solid #87d83d;
+    border: 2px solid #87d83d;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -103,7 +103,7 @@ padding-top: 5%;
 .search-btn{
     background-color: #87d83d;
     margin-left: 1%;
-    height: 30px;
+    height: 34px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -114,20 +114,196 @@ padding-top: 5%;
     background-image: url(img/cover\ image.png);
     background-repeat: no-repeat;
     background-size:contain;
-    height: 328px;
-    display: flex;
-    justify-content: center;
-    align-items:flex-start;
+    height: 328px; 
 }
-.carousel-heading{
+.carousel-heading,.carousel-txt{
     color: white;
     font-family: sans-serif;
-    margin-top: 5%;
+    text-align: center;
+   padding-top: 15px;
 }
-.domain{
-
+.btn-div{
+    display: flex;
+    justify-content: center;
+}
+.start-btn{
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 15px;
+    background-color: #184053;
+    color: white;
+    border: 2px solid #87d83d;
 }
 .domain-heading{
     text-align: center;
     font-size: 30px;
+}
+.input-div{
+display: flex;
+justify-content: center;
+}
+.domain-search{
+    width: 300px;
+    height: 30px;
+    font-size: 14px;
+}
+select{
+    font-size: 16px;
+    font-weight: 500;
+}
+.domain-btn{
+background-color: #87d83d;
+font-weight: 600;
+}
+.domain-price{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    margin: 3%;
+    background-color: #F5F5F5;
+    padding: 1%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.domain-item{
+text-align: center;
+}
+.domain-name{
+    font-size: 24px;
+}
+.price{
+    font-size: 12px;
+}
+.list-div{
+    display: flex;
+    justify-content: center;
+}
+.list-btn{
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 2px solid #87d83d;
+}
+.cart-container{
+    background-color: #F5F5F5;
+}
+.cart-heading{
+    text-align: center;
+    padding-top: 50px;
+}
+.cart-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin: 80px;
+}
+.cart{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.cart-heading-container{
+    background-color: #90C851;
+    padding-top: 10px;
+    color: white;
+    font-family: sans-serif;
+}
+.cart-heading-container h3{
+    font-size: 26px;
+}
+.cart-heading-container p{
+    margin: 0;
+    padding-bottom: 10px;
+}
+.cart-content{
+    background-color: white;
+}
+.cart-txt{
+    margin: 0;
+    padding: 10px;
+}
+
+.hosting-price-div{
+    background-color: #F5F5F5;
+}
+.hosting-price{
+    font-size: 40px;
+    color: #5e9b18;
+    font-weight: 600;
+}
+sup{
+    font-size: 30px;
+    font-weight: 600;
+}
+.continue-div{
+    background-color: white;
+}
+.continue{
+    border: 2px solid #87d83d;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin: 20px;
+    width: 150px;
+    height: 40px;
+}
+.continue:hover{
+    background-color: #87d83d;
+    color: white;
+    cursor: pointer;
+}
+.sc{
+    background-color: #4E95EE;
+    color: white;
+}
+.bsc{
+   color: #4E95EE;
+   font-size: 40px;
+}
+.bss{
+    background-color: #2F363B;
+    color: white;
+}
+.bs{
+    color: rgb(233, 148, 91);
+    font-size: 40px;
+}
+.service-heading{
+    text-align: center;
+    font-family: sans-serif;
+}
+.service-cart-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10%;
+    background-color: #F5F5F5;
+}
+.service-cart{
+   background-color: #F5F5F5;
+   margin: 0px 30px;
+   box-shadow: 1px 1px 5px lightgray;
+   padding: 50px 30px;
+}
+.service-icon{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: -5px -4px 8px gray;
+    padding: 50px;
+    background-color: white;
 }
